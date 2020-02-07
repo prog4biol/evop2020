@@ -1,4 +1,4 @@
-# Python for EVOP 2019
+# Python for EVOP 2020
 
 
 
@@ -87,8 +87,8 @@ Note:
 First Python Commands:
 
 ```python
->>> print("Hello, EVOP2019!")
-Hello, EVOP2019!
+>>> print("Hello, EVOP2020!")
+Hello, EVOP2020!
 ```
 
 > Note: `print` is a function. Function names are followed by (), so formally, the function is `print()`
@@ -108,7 +108,7 @@ Hello, EVOP2019!
 File Contents:  
 
 ```python
-print ("Hello, EVOP2019!")
+print ("Hello, EVOP2020!")
 ```
 
 #### Running Python Scripts
@@ -124,7 +124,7 @@ Execute the Python script like this (% represents the prompt)
 This produces the following result:
 
 ```bash
-Hello, EVOP2019!
+Hello, EVOP2020!
 ```
 
 #### A quicker/better way to run python scripts
@@ -149,14 +149,14 @@ The file test.py now looks like this
 
 ```python
 #!/usr/bin/env python3
-print ("Hello, EVOP2019!")
+print ("Hello, EVOP2020!")
 ```
 
 Now you can simply type the name of the script to run it. Like this
 
 ```bash
 % ./test.py
-Hello, EVOP2019!
+Hello, EVOP2020!
 
 ```
 
@@ -236,7 +236,7 @@ The first line of a script starting with `#!` is a special example of a comment 
 #!/usr/bin/env python3
 
 # this is my first script
-print ("Hello, EVOP2019!") # this line prints output to the screen
+print ("Hello, EVOP2020!") # this line prints output to the screen
 ```
 
 #### Blank Lines
@@ -2562,7 +2562,7 @@ Union, intersection, difference and symmetric difference can be done with sets
 
 The difference between two sets are the elements that are unique to the set to the left of the `-` operator, with duplicates removed.
 
-![img](https://github.com/prog4biol/evop2019/blob/master/images/set_difference.png)
+![img](images/set_difference.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -2577,7 +2577,7 @@ The difference between two sets are the elements that are unique to the set to t
 
 The union between two sets is a sequence of the all the elements of the first and second sets combined, with duplicates removed.
 
-![img](https://github.com/prog4biol/evop2019/blob/master/images/set_union.png)
+![img](https://github.com/prog4biol/evop2020/blob/master/images/set_union.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -2592,7 +2592,7 @@ The union between two sets is a sequence of the all the elements of the first an
 
 The intersection between two sets is a sequence of the elements which are in both sets, with duplicates removed.
 
-![img](https://github.com/prog4biol/evop2019/blob/master/images/set_intersection.png)
+![img](https://github.com/prog4biol/evop2020/blob/master/images/set_intersection.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -2607,7 +2607,7 @@ The intersection between two sets is a sequence of the elements which are in bot
 
 The symmetric difference is the elements that are only in the first set plus the elements that are only in the second set, with duplicates removed.
 
-![img](https://github.com/prog4biol/evop2019/blob/master/images/set_symmetric_difference.png)
+![img](https://github.com/prog4biol/evop2020/blob/master/images/set_symmetric_difference.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -2662,8 +2662,8 @@ I/O stands for input/output. The in and out refer to getting data into and out o
 You should be well versed in writing to the screen. We have been using the `print()` function to do this.  
 
 ```python
->>> print ("Hello, EVOP2019!")
-Hello, EVOP2019!
+>>> print ("Hello, EVOP2020!")
+Hello, EVOP2020!
 ```
 
 > Remember this example from one of our first lessons?
@@ -3430,7 +3430,7 @@ Or you can use a for loop to do something to each match.
 ![try it](images/Try-It-Now.jpg)
 
 1. Create a script in your text editor.
-2. Open [sequence_data.txt](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/sequence_data.txt) 
+2. Open [sequence_data.txt](https://raw.githubusercontent.com/prog4biol/evop2020/master/files/sequence_data.txt) 
 3. loop through each line of the file
 4. store the gene name in a variable
 5. store the sequence in a variable
@@ -3514,7 +3514,7 @@ Sometimes you want to find a pattern and use it in the replacement.
 
 1. Create a script in your text editor.
 
-2. Open [sequence_data.txt](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/sequence_data.txt) 
+2. Open [sequence_data.txt](https://raw.githubusercontent.com/prog4biol/evop2020/master/files/sequence_data.txt) 
 
 3. loop through each line of the file
 
@@ -3566,7 +3566,7 @@ Now that we have gone over these points we can build our first FASTA parser
 
   
 
-Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](https://github.com/prog4biol/evop2019/blob/master/scripts/fasta_parser.py).
+Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](https://github.com/prog4biol/evop2020/blob/master/scripts/fasta_parser.py).
 
 ![try it](images/Try-It-Now.jpg)
 
@@ -3578,7 +3578,7 @@ Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](https://github.co
    5. check to see if the line is the seqid or sequence
    6. add sequence lines to your dictionary using the id as the key
 2. **Remember to test your code often!!** The more lines you write without running and testing are more lines to debug.
-3. Need help? [Check out my basic FASTA parser](https://github.com/prog4biol/evop2019/blob/master/scripts/fasta_parser.py).
+3. Need help? [Check out my basic FASTA parser](https://github.com/prog4biol/evop2020/blob/master/scripts/fasta_parser.py).
 
 
 
@@ -3727,7 +3727,7 @@ def gc_content(dna='A'):   # give our function a name and parameter 'dna'
 ![try it](images/Try-It-Now.jpg)
 
 1. Create a script that contains a gc_content function.
-2. Open [sequence_data.txt](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/sequence_data.txt)
+2. Open [sequence_data.txt](https://raw.githubusercontent.com/prog4biol/evop2020/master/files/sequence_data.txt)
 3. loop through each line of the file
 4. store the gene name in a variable
 5. store the sequence in a variable
@@ -4118,7 +4118,7 @@ Dictionaries of dictionaries is my favorite!! You can do so many useful things w
 
 2. How would you print and retrieve the nucleotide composition of gene1?
 
-3. CHALLENGE QUESTION: Take a mulit-FASTA [trinity.nt.fa](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/trinity.nt.fa) file from user input and calculate the nucleotide composition for each sequence. Use a datastructure to keep count. Print out each sequence name and its compostion in this format `seqName\tA_count\tT_count\tG_count\C_count`
+3. CHALLENGE QUESTION: Take a mulit-FASTA [trinity.nt.fa](https://raw.githubusercontent.com/prog4biol/evop2020/master/files/trinity.nt.fa) file from user input and calculate the nucleotide composition for each sequence. Use a datastructure to keep count. Print out each sequence name and its compostion in this format `seqName\tA_count\tT_count\tG_count\C_count`
 
    1. Parse the FASTA to get each complete sequence.
    2. Use `count()` to get the count of each A, T, G, C.
@@ -4180,9 +4180,9 @@ In the interpreter:
 >>>
 ```
 
-Same example in a script file: [Building Complex Datastructures](https://github.com/prog4biol/evop2019/blob/master/scripts/building_datastructures.py)
+Same example in a script file: [Building Complex Datastructures](https://github.com/prog4biol/evop2020/blob/master/scripts/building_datastructures.py)
 
-Here is a script that parses a FASTA file and after paring is completed we build a complex data structure with more information about our sequences: [FASTA Nucleotide Composition](https://github.com/prog4biol/evop2019/blob/master/scripts/fasta_datastucture.py)
+Here is a script that parses a FASTA file and after paring is completed we build a complex data structure with more information about our sequences: [FASTA Nucleotide Composition](https://github.com/prog4biol/evop2020/blob/master/scripts/fasta_datastucture.py)
 
 
 
@@ -4476,7 +4476,7 @@ AGC
 
 ### Read a FASTA file
 
-We were learning how to read a fasta file line by line. SeqIO.parse() is the main method for reading from almost any file format. We'll need a fasta file. We can use [seq.nt.fa](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/seq.nt.fa) which looks like this
+We were learning how to read a fasta file line by line. SeqIO.parse() is the main method for reading from almost any file format. We'll need a fasta file. We can use [seq.nt.fa](https://raw.githubusercontent.com/prog4biol/evop2020/master/files/seq.nt.fa) which looks like this
 
 ```
 >seq1
@@ -4558,7 +4558,7 @@ Here's a script to read fasta records and print out some information
 
 ```python
 #!/usr/bin/env python3
-# assumes we are in the evop2019 directory
+# assumes we are in the evop2020 directory
 from Bio import SeqIO
 for seq_record in SeqIO.parse("files/seq.nt.fa", "fasta"):   # give filename and format
   print('ID',seq_record.id)
@@ -4753,7 +4753,7 @@ To parse the output, you'll write something like this
 ![try it](images/Try-It-Now.jpg)
 
 1. Run BLAST with output in XML format. 
-   1. Query = [query.fa](https://raw.githubusercontent.com/prog4biol/evop2019/master/files/query.fa)
+   1. Query = [query.fa](https://raw.githubusercontent.com/prog4biol/evop2020/master/files/query.fa)
    2. Program = blastx
    3. Database = Swissprot/UniProt
       1. Already downloaded, path:
