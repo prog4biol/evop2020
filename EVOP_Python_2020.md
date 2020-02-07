@@ -2577,7 +2577,7 @@ The difference between two sets are the elements that are unique to the set to t
 
 The union between two sets is a sequence of the all the elements of the first and second sets combined, with duplicates removed.
 
-![img](https://github.com/prog4biol/evop2020/blob/master/images/set_union.png)
+![img](images/set_union.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -2592,7 +2592,7 @@ The union between two sets is a sequence of the all the elements of the first an
 
 The intersection between two sets is a sequence of the elements which are in both sets, with duplicates removed.
 
-![img](https://github.com/prog4biol/evop2020/blob/master/images/set_intersection.png)
+![img](images/set_intersection.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -2607,7 +2607,7 @@ The intersection between two sets is a sequence of the elements which are in bot
 
 The symmetric difference is the elements that are only in the first set plus the elements that are only in the second set, with duplicates removed.
 
-![img](https://github.com/prog4biol/evop2020/blob/master/images/set_symmetric_difference.png)
+![img](images/set_symmetric_difference.png)
 
 ```python
   >>> a = set('abracadabra')
@@ -3566,7 +3566,7 @@ Now that we have gone over these points we can build our first FASTA parser
 
   
 
-Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](https://github.com/prog4biol/evop2020/blob/master/scripts/fasta_parser.py).
+Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](scripts/fasta_parser.py).
 
 ![try it](images/Try-It-Now.jpg)
 
@@ -3578,7 +3578,7 @@ Spoiler Alert! Don't click this link yet: [Basic FASTA Parser](https://github.co
    5. check to see if the line is the seqid or sequence
    6. add sequence lines to your dictionary using the id as the key
 2. **Remember to test your code often!!** The more lines you write without running and testing are more lines to debug.
-3. Need help? [Check out my basic FASTA parser](https://github.com/prog4biol/evop2020/blob/master/scripts/fasta_parser.py).
+3. Need help? [Check out my basic FASTA parser](scripts/fasta_parser.py).
 
 
 
@@ -4180,9 +4180,9 @@ In the interpreter:
 >>>
 ```
 
-Same example in a script file: [Building Complex Datastructures](https://github.com/prog4biol/evop2020/blob/master/scripts/building_datastructures.py)
+Same example in a script file: [Building Complex Datastructures](scripts/building_datastructures.py)
 
-Here is a script that parses a FASTA file and after paring is completed we build a complex data structure with more information about our sequences: [FASTA Nucleotide Composition](https://github.com/prog4biol/evop2020/blob/master/scripts/fasta_datastucture.py)
+Here is a script that parses a FASTA file and after paring is completed we build a complex data structure with more information about our sequences: [FASTA Nucleotide Composition](scripts/fasta_datastucture.py)
 
 
 
