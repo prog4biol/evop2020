@@ -3357,9 +3357,9 @@ The match object contains information about the match that can be retrieved with
     up       = found.group(1)
     down     = found.group(2)
     up_start = found.start(1) + 1   # need to convert from 0 to 1 notation 
-    up_end   = found.end(1)   + 1
+    up_end   = found.end(1) 
     dn_start = found.start(2) + 1
-    dn_end   = found.end(2)   + 1
+    dn_end   = found.end(2) 
   
     print( whole , up , up_start, up_end , down , dn_start , dn_end , sep="\t" )
 ```
