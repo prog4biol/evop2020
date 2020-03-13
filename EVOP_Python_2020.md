@@ -249,7 +249,7 @@ Blank lines are also important for increasing the readability of the code. You s
 
 This is our first look at variables and data types. Each data type will be discussed in more detail in subsequent sections. 
 
-The first concept to consider is that Python data types are either immutable (unchangeable) or not. Literal numbers, strings and tuples cannot be changed. Lists, dictionaries and sets can be changed. So can individual (scalar) variables. You can store data in memory by putting it in different kinds variables. You use the `=` sign to assign a value to a variable.
+The first concept to consider is that Python data types are either mutable (changeable) or not (immutable). Literal numbers, strings and tuples cannot be changed. Lists, dictionaries and sets can be changed. So can individual (scalar) variables. You can store data in memory by putting it in different kinds variables. You use the `=` sign to assign a value to a variable.
 
 #### Numbers and Strings
 
@@ -285,7 +285,7 @@ Collections of data can also be stored in special data types, i.e., tuples, list
    2. institute
    3. birth_country (example of variable name using a_underscore)
    4. favoriteColor (example of variable name using camelCase)
-2. Use the `print()` function to print each variable to the screen.
+2. Use the `print()` function to print each variable to the screen. Don't use quotes around variables, we will talk more about this later.
 
 #### Lists
 
@@ -416,6 +416,7 @@ This happens inside the script:
 > You can access values of the other parameters by their indices, starting with 1, so `sys.argv[1]` contains 'Joe'  and `sys.argv[2]` contains 'Anita'. You access elements in a list by adding square brackets and the numerical index after the name of the list. 
 > If you wanted to print a message saying these two people are friends, you might write some code like this
 
+Code:  
 ```python
 #!/usr/bin/env python3
 import sys
@@ -424,6 +425,13 @@ friend2 = sys.argv[2] # get second command line parameter
 # now print a message to the screen
 print(friend1,'and',friend2,'are friends')
 ```
+
+Output:  
+```bash
+./commandline_input.py Shaggy Scoby
+Shaggy and Scoby are friends
+```
+
 > notice that the `print()` function takes a list of comma separated values. These values can be variables or literal strings. More about the `print()` function later
 
 The advantage of getting input from the user from the command line is that you can write a script that is general. It can print a message with any input the user provides. This makes it flexible. 
